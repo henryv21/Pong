@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pong Game</title>
+        <style>
+            body {
+                background-color: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                flex-direction: column;
+            }
+            #gameCanvas {
+                border: 1px solid white;
+            }
+            #restart-button {
+                display: none;
+                color: white;
+                background-color: black;
+                font-size: 20px;
+                padding: 10px;
+            }
+            #instructions {
+                color: white;
+                margin-top: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <button id="restart-button">Play Again</button>
+        <div id="instructions">
+            <p>Player A: Use 'W' to move up and 'S' to move down.</p>
+            <p>Player B: Use 'ArrowUp' to move up and 'ArrowDown' to move down.</p>
+            <p>Touch control: Slide your finger up and down to move the paddles.</p>
+            <p>The first player to reach 5 points wins the game!</p>
+        </div>
+        <script src="pong.js"></script>
+    </body>
+</html>
