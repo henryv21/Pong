@@ -8,6 +8,10 @@ This is a simple, yet fully-featured Pong game developed with HTML, CSS, and Jav
 2. Navigate to the directory where the repository is cloned.
 3. Open the `pong.html` file in a web browser.
 
+or
+
+https://itch.io/embed-upload/7985105?color=333333
+
 Note: The game should work in the latest versions of Chrome, Firefox, and Safari.
 
 ## Gameplay Instructions
